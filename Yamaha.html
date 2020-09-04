@@ -1,0 +1,300 @@
+<html>
+<head>
+<title>Bikers</title>
+
+<link rel="stylesheet" type="text/css" href="css\main.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+	.ftr
+		{
+			background-color: black;
+			height: 70px;
+		}
+	#txt
+		{
+			border-radius :25px;
+		}
+	#bxsdw2:hover
+		{
+		box-shadow: 5px 5px 10px;
+		transform: translateY(-10px);
+		}
+		#yc10
+		{
+			margin-left: -50px;
+		}
+	</style>
+
+</head> 
+
+	<body>
+
+		<div class="modal fade" id="myModal">
+       	<div class="modal-dialog" role="document">
+       		<div class="modal-content">
+
+       			<div class="modal-header">
+       				<h2 class="modal-title" style="margin-left: 130px;">
+                         <img src="img/websitelogo.jpg" style="width: 70px" id="imgid">Account
+       				</h2>
+       				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+       					<span aria-hidden="true">&times;</span>
+       				</button>
+       			</div>
+       			<div class="modal-body">
+       				<form>
+						<div class="form-group">
+							<label class="text-secondary" for="username">Username</label>
+							<input type="text" name="username" class="form-control" required id="txt">
+						</div>
+						<div class="form-group">
+							<label  class="text-secondary" for="password">Password</label>
+							<input type="text" name="password" class="form-control" required id="txt">
+						</div>
+						<div>
+							<button class="btn btn-primary col-12" id="txt">Login</button>
+						</div>
+					</form>
+       			</div>
+       			<div class="modal-footer">
+       				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+       			</div>
+       		</div>
+       	</div>
+       </div>
+	
+		<div id="homepageup">
+<nav class="navbar navbar-expand-lg navbar-transparent bg-transparent fixed-top">
+
+	<div class="container text-uppercase p-2">
+
+       <img src="img/websitelogo.jpg" style="width: 70px" id="imgid">
+
+       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarresponsive" >
+       	<span class="navbar-toggler-icon"></span></button>
+
+
+       <div class="collapse navbar-collapse" id="navbarresponsive">
+       	<ul class="navbar-nav ml-auto">
+       		
+       		<li class="nav-item">
+       			<a class="nav-link" href="Home.html">Home</a>
+       		</li>
+
+       		<li class="nav-item">
+       			<a class="nav-link" href="Services.html">Services</a>
+       		</li>
+
+
+       		<li class="nav-item">
+       			<a class="nav-link" href="About.html">About</a>
+       		</li>
+
+       		<li class="nav-item">
+       			<a class="nav-link" href="Contact.html">Contact	Us</a>
+       		</li>
+            
+       	</ul>
+       	<ul class="navbar-nav navbar-right mt-2">
+       		<li class="nav-item">
+       			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="txt">Login</button>
+       		</li>
+       	</ul>
+       </div>
+
+	</div>
+	
+</nav>
+
+		<div class="container">
+			<h1 class="text-center text-secondary"><i>Yamaha Collections</i></h1>
+			<br>
+			<div class="container mt-5">
+				<div class="card-deck">
+					<div class="card border-0">
+						<div class="card-body">	
+								<img src="img/yamahaheadlight.jpeg" style="width: -100px height: 500px">
+						</div>
+					</div>
+					<div class="card border-0">
+						<div class="card-body">
+							<img src="img/yamahafront.png" style="width: 390px">
+						</div>
+					</div>
+				</div>
+			<br><br>
+			<div class="container mt-5">
+				<div>
+					<img src="img/yamaha.jpeg">
+				</div>
+			</div>
+			<br>
+			<div class="card-deck">
+				<div class="card border-0">
+					<div class="card-body" id="bxsdw2">
+						<img src="img/Yamahar1.jpeg" style="width: 100%">
+						<hr>
+						<p class="text-center">R1</p>
+					</div>
+				</div>
+				<div class="card border-0">
+					<div class="card-body" id="bxsdw2">
+						<img src="img/Yamahar3.jpeg" style="width: 100%">
+						<br><br>
+						<hr>
+						<p class="text-center">R3</p>	
+					</div>
+				</div>
+				<div class="card border-0">
+					<div class="card-body" id="bxsdw2">
+						<img src="img/yamahar6.jpeg" style="width: 100%">
+						<br>
+						<hr>
+						<p class="text-center">R6</p>
+					</div>
+				</div>
+			</div>
+			<br>
+			
+			
+			<br>
+			<div class="card-deck">
+				<div class="card border-0">
+					<div class="card-body" id="bxsdw2">
+						<img src="img/yamahasmall.jpeg" style="width: 100%">
+						<br><br>
+						<hr>
+						<p></p>
+					</div>
+				</div>
+				<div class="card border-0">
+					<div class="card-body" id="bxsdw2">
+						<img src="img/yamahamt09.jpeg" style="width: 100%">
+						<hr>
+						<p class="text-center">MT-09</p>
+					</div>
+				</div>
+				<div class="card border-0">
+					<div class="card-body" id="bxsdw2">
+						<img src="img/yamaha-MT-15.jpeg" style="width:120%">
+						<br><br>
+						<hr>
+						<p class="text-center">MT-15</p>
+					</div>
+				</div>
+			</div>
+				<div class="card-deck">
+				<div class="card border-0">
+					<div class="card-body" id="bxsdw2">
+						<img src="img/yamahapes1.jpeg" style="width: 100%">
+						<br><br>
+						<hr>
+						<p class="text-center">PES1</p>
+					</div>
+				</div>
+				<div class="card border-0">
+					<div class="card-body" id="bxsdw2">
+						<img src="img/yamaharesonator.jpeg" style="width: 100%">
+						<br><br>
+						<hr>
+						<p class="text-center">Resonator</p>
+					</div>
+				</div>
+				<div class="card border-0">
+					<div class="card-body" id="bxsdw2">
+						<img src="img/yamahamotor.jpeg" style="width:95%">
+						<br>
+						<hr>
+						<p class="text-center">Impluse</p>
+					</div>
+				</div>
+			</div>
+
+			<br>
+			
+			<div class="card-deck">
+				<div class="card border-0">
+					<div class="card-body">
+						<img src="img/yamahacaferacer1.jpeg" style="width: 100%">
+					</div>
+				</div>
+				<div class="card border-0">
+					<div class="card-body" style="margin-top: 155px" id="yc10">
+						<img src="img/yamahacaferacer10.jpeg" style="width: 90%">
+					</div>
+				</div>
+			</div>
+			<div class="card-deck">
+				<div class="card border-0">
+					<div class="card-body" style="margin-top: -215px">
+						<img src="img/yamahacaferacer2.jpeg" style="width: 100%">
+					</div>
+				</div>
+				<div class="card border-0">
+					<div class="card-body" style="margin-top: -20px" id="yc10">
+						<img src="img/yamahacaferracer9.jpeg" style="width: 100%">
+					</div>
+				</div>
+			</div>
+			<div class="card-deck">
+				<div class="card border-0">
+					<div class="card-body" style="margin-top: -300px">
+						<img src="img/yamahacaferacer7.jpeg" style="width: 100%">
+					</div>
+				</div>
+				<div class="card border-0">
+					<div class="card-body" style="margin-top: -20px" id="yc10">
+						<img src="img/yamahacaferacer6.jpeg" style="width: 100%">
+					</div>
+				</div>
+			</div>
+			<div class="card-deck">
+				<div class="card border-0">
+					<div class="card-body" style="margin-top: -250px">
+						<img src="img/yamahacaferacer8.jpeg" style="width: 47.5%">
+					</div>
+				</div>
+			</div>
+		</div>
+<br>
+
+<a href="#homepageup" style="margin-left:1300px">
+<i class="fa fa-angle-double-up" style="font-size:48px;color:red"></i>
+</a>
+</div>
+
+<footer class="py-5 bg-dark">
+       <div class="container">
+       	<center><upercase><strong><h2 style="color:grey">Bikers</h2></strong></upercase></center>
+              <img src="img/websitelogo.jpg" style="width: 70px" id="imgid">
+              <ul style="margin-left: 475px;">
+                     <li><a href="Service.html">Services</a></li>
+                     <li><a href="About.html">About</a></li>
+                     <li><a href="Contact.html">Contact Us</a></li>
+              </ul>
+       </div>
+</footer>
+
+  <section class="ftr">
+              <p class=" mb-0 text-center text-white">2020 &copy; Bikers.com </p>
+    
+              <div style="margin-left:1000px">
+              <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook btn btn-primary" font-size:25px"></i>
+              </a>
+              <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram btn btn-primary" font-size:25px"></i></a>
+              <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter btn btn-primary" font-size:25px"></i></a>
+              </div>
+  </section>
+
+	</body>
+</html>

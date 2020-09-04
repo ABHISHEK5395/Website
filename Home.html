@@ -1,0 +1,430 @@
+<html>
+<head>
+<title>Bikers</title>
+
+<link rel="stylesheet" type="text/css" href="css\main.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js\jquery-1.8.3.min.js"></script>
+
+
+<style>
+	#crdboxsdw:hover
+		{
+		box-shadow: 0px 8px 6px -6px black;
+		border-radius:50%;
+		}
+
+	#bxsdw2:hover
+		{
+		box-shadow: 5px 5px 10px;
+		transform: translateY(-10px);
+		}
+	.ftr
+		{
+			background-color: black;
+			height: 70px;
+		}
+	#txt
+		{
+			border-radius :25px;
+		}
+	#jquery-1
+		{
+			margin-top: -150px;
+			margin-left: 120px;
+		}
+	#jquery-2
+		{
+			margin-top: -150px;
+			margin-left: 120px;
+		}
+	#jquery-3
+		{
+			margin-top: -150px;
+			margin-left: 120px;
+		}
+</style>
+</head>
+
+<body>
+
+	<script>
+		$(document).ready(function(){
+			$('.count').counterUp({
+				delay:10,
+				time:3000
+			})
+		});		
+	</script>
+
+	<div class="modal fade" id="myModal">
+       	<div class="modal-dialog" role="document">
+       		<div class="modal-content">
+
+       			<div class="modal-header">
+       				<h2 class="modal-title" style="margin-left: 130px;">
+                        <img src="img/websitelogo.jpg" style="width: 70px" id="imgid">Account
+       				</h2>
+       				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+       					<span aria-hidden="true">&times;</span>
+       				</button>
+       			</div>
+       			<div class="modal-body">
+       				<form>
+						<div class="form-group">
+							<label class="text-secondary" for="username">Username</label>
+							<input type="text" name="username" class="form-control" required id="txt">
+						</div>
+						<div class="form-group">
+							<label  class="text-secondary" for="password">Password</label>
+							<input type="text" name="password" class="form-control" required id="txt">
+						</div>
+						<div>
+							<button class="btn btn-primary col-12" id="txt">Login</button>
+						</div>
+					</form>
+       			</div>
+       			<div class="modal-footer">
+       				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+       			</div>
+       		</div>
+       	</div>
+       </div>
+
+<div id="homepageup">
+<nav class="navbar navbar-expand-lg navbar-transparent bg-transparent sticky-top">
+
+	<div class="container text-uppercase p-2">
+
+ 		<img src="img/websitelogo.jpg" style="width: 70px" id="imgid">
+       	
+
+       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarresponsive" >
+       	<span class="navbar-toggler-icon"></span>
+       </button>
+
+
+       <div class="collapse navbar-collapse" id="navbarresponsive">
+       	<ul class="navbar-nav ml-auto">
+       		
+       		<li class="nav-item">
+       			<a class="nav-link" href="Home.html">Home</a>
+       		</li>
+       		<li class="nav-item">
+       			<a class="nav-link" href="Service.html">Services</a>
+       		</li>
+       		<li class="nav-item">
+       			<a class="nav-link" href="About.html">About</a>
+       		</li>
+       		<li class="nav-item">
+       			<a class="nav-link" href="Contact.html">Contact	Us</a>
+       		</li>  
+       	</ul>
+       	<ul class="navbar-nav navbar-right mt-2">
+       		<li class="nav-item">
+       			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="txt">Login</button>
+       		</li>
+       	</ul>
+       </div> 
+ </div>	
+</nav>
+
+<header id="carouselId" style="margin-top: -20px">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  	<ol class="carousel-indicators">
+	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#myCarousel" data-slide-to="1"></li>
+	    <li data-target="#myCarousel" data-slide-to="2"></li>
+	    <li data-target="#myCarousel" data-slide-to="3"></li>
+  	</ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="D:\study material\responsive website\img\carousel_11.jpg" style="height:450px; width:100%"  alt="1">
+    </div>
+
+    <div class="item">
+      <img src="D:\study material\responsive website\img\carousel_22.jpg" style="height:450px; width:100%"  alt="2">
+    </div>
+
+    <div class="item">
+      <img src="D:\study material\responsive website\img\carousel_33.jpg" style="height:450px; width:100%"  alt="3">
+    </div>
+
+    <div class="item">
+      <img src="D:\study material\responsive website\img\carousel_44.jpg" style="height:450px; width:100%"  alt="4">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</header>
+
+<br>
+<h2 class="text-center">Want To Ride ?</h2>
+	<div class="container">
+
+		<div class="row">
+			<div class="col-lg-4 mb-4">
+				<div class="card h-100 border-0" id="crdboxsdw">
+					
+						<div class="card-body">
+							 <img src="img\harley-davidson.jpg" class="img-circle" style="width:100%" height="300px">
+							 <h2 class="text-white" id="jquery-1">Ready</h2>
+						</div>
+				</div>	
+			</div>
+
+			<div class="col-lg-4 mb-4">
+				<div class="card h-100 border-0" id="crdboxsdw">
+					
+						<div class="card-body">
+							<img src="img\pexel.jpg" class="img-circle" style="width:100%" height="300px">
+							<h2 class="text-white" id="jquery-2">To</h2>
+						</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 mb-4">
+				<div class="card h-100 border-0" id="crdboxsdw">
+					
+						<div class="card-body">
+							<img src="img\custom_honda.jpg" class="img-circle" style="width:100%" height="300px">
+							<h2 class="text-white" id="jquery-3">Race</h2>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<section class="container is-justify-center">
+	
+		<div class="card-deck">
+			
+			<div class="card border-0">
+				<div class="card-title text-center">
+					<h3>Go Fast<h3>
+				</div>
+				<div class="card-body text-center">
+					Boosted is known for its premium performance boards offering a next-level experience.
+				</div>
+			</div>
+			<div class="card border-0">
+				<div class="card-title text-center">
+					<h3>Go Far<h3>
+				</div>
+				<div class="card-body text-center">
+					With optional extended battery life, you can get wherever you need to go reliably.
+				</div>
+			</div>
+			<div class="card border-0">
+				<div class="card-title text-center">
+					<h3>Go Safe<h3>
+				</div>
+				<div class="card-body text-center">
+					Safety is a #1 priority for Boosted, always wear a helmet when riding.
+				</div>
+			</div>	
+			<div class="card border-0">
+				<div class="card-title text-center">
+					<h3>Go Race<h3>
+				</div>
+				<div class="card-body text-center">
+					Boosted products are engineered to last for years and are extremely reliable.
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+   <br>
+
+	<h2 class="text-center text-secondary">Custom Bike </h2>
+	<div class="container">
+		<div class="card border-0">
+			<img src="img/custom_bike.jpg" style="width: 100%" height="500px">
+		</div>
+	</div>
+	<br>
+	<div class="container">
+		<h1 class="text-center">Popular Brands</h1>
+		<br>
+		<div class="card-deck">
+			<div class="card border-0">
+				<div class="card-body">
+					<img src="img/harley-davidsonlogo.jpg" style="width: 100%">
+				</div>
+			</div>
+			<div class="card border-0">
+				<div class="card-body">
+					<img src="img/ducatilogo.jpg" style="width: 100%">
+				</div>
+			</div>
+			<div class="card border-0">
+				<div class="card-body">
+					<img src="img/bmwlogo.jpg" style="width: 100%">
+				</div>
+			</div>
+			<div class="card border-0">
+				<div class="card-body">
+					<img src="img/ktmlogo.jpg" style="width: 100%">
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+
+	<video controls  style="width:700px; height: 450px; margin-left:650px; transform: translate3d(-50%, 0px, 0px);">
+	<source src="video/Ducati Panigale V4R.MP4" type="Video/mp4">
+	</video>
+	<br>
+	<br>
+	<section>
+   	<div class="container d-flex justify-content-around align-item-center">
+   		<div>
+	   		<h1 class="count">1500</h1>
+	   		<p>asdadas</p>
+   	    </div>
+   	    <div>
+	   		<h1 class="count">2500</h1>
+	   		<p>asdadas</p>
+   	    </div>
+   	    <div>
+	   		<h1 class="count">1000</h1>
+	   		<p>asdadas</p>
+   	    </div>
+   	    <div>
+	   		<h1 class="count">3000</h1>
+	   		<p>asdadas</p>
+   	    </div>
+   	</div>
+   </section>
+   <br><br><br>
+	<div class="container">
+		<center><h1>MOTORCYCLE FLUIDS</h1></center>
+		<div class="row">
+			<div class="col-lg-6 col-md-12 col-10 offset-1 offset-lg-0">
+				<div class="names my-3">
+					<h3>OIL</h3>
+					<div class="progress">
+					<div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 100%">
+						100%
+					</div>
+					</div>
+				</div>
+				<div class="names my-3">
+					<h3>COOLANT</h3>
+					<div class="progress">
+					<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 90%">
+						90%
+					</div>
+				   </div>
+				</div>
+				<div class="names my-3">
+				<h3>BREAK FLUID</h3>
+				<div class="progress">
+					<div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 80%">
+						80%
+					</div>
+				</div>
+				</div>
+				<div class="names my-3">
+					<h3>TRASMISSION OIL</h3>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 70%">
+							70%
+						</div>
+					</div>
+				</div>
+				<div class="names my-3">
+					<h3>FORK OIL</h3>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 60%">
+							60%
+						</div>
+					</div>
+				</div>
+				<div class="names my-3">
+					<h3>HYADRAULIC CLUTCH FLUID</h3>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%">
+							50%
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br><br><br>
+
+	<div class="container">
+		<div class="card-deck">
+			<div class="card border-0" id="bxsdw2">
+				<div class="card-body">
+					<img src="img/lombok_motorbike.jpg" style="width:100%">	
+				</div>	
+			</div>
+			<div class="card border-0" id="bxsdw2">
+				<div class="card-body">
+					<img src="img/urban_fighterbike.jpg" style="width:100%">
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<br>
+</div>
+
+	<div>
+		<a href="#homepageup" style="margin-left:1300px">
+				<i class="fa fa-angle-double-up" style="font-size:48px;color:red"></i>
+		</a>
+    </div>
+
+<footer class="py-5 bg-dark">
+	<div class="container">
+		<span>
+		<center><upercase><strong><h2 style="color:grey">Bikers</h2></strong></upercase></center>
+		<img src="img/websitelogo.jpg" style="width: 70px" id="imgid">
+	    </span>
+		<ul style="margin-left: 475px;">
+			<li><a href="Service.html">Services</a></li>
+			<li><a href="About.html">About</a></li>
+			<li><a href="Contact.html">Contact Us</a></li>
+	    </ul>
+	</div>
+</footer>
+
+  <section class="ftr">
+		<p class=" mb-0 text-center text-white">2020 &copy; Bikers.com </p>
+    
+		<div style="margin-left:1000px">
+		<a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook btn btn-primary" font-size:25px"></i>
+		</a>
+		<a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram btn btn-primary" font-size:25px"></i></a>
+		<a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter btn btn-primary" font-size:25px"></i></a>
+		</div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+</body>
+</html>
+

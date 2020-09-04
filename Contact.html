@@ -1,0 +1,176 @@
+<html>
+<head>
+   <title>Bikers</title>
+
+<link rel="stylesheet" type="text/css" href="css\main.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style type="text/css">
+
+       body
+              {
+              background-image: url('img/moto-acrobatic.jpg');
+              background-repeat: no-repeat;
+              width: 100%;
+              background-size: cover;
+              background-position: center;
+              height: 590px;
+              }
+       #txt
+              {
+              border-radius: 25px;
+              }
+       .ftr
+              {
+                     background-color: black;
+                     height: 70px;
+              }
+       .socialicons
+              {
+                margin-left: 1100px;
+              }
+</style>
+</head>
+
+<body>
+       <div class="modal fade" id="myModal">
+              <div class="modal-dialog" role="document">
+                     <div class="modal-content">
+
+                            <div class="modal-header">
+                                   <h2 class="modal-title" style="margin-left: 130px;">
+                                       <img src="img/websitelogo.jpg" style="width: 70px" id="imgid">Account
+                                   </h2>
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                   </button>
+                            </div>
+                            <div class="modal-body">
+                                   <form>
+                                          <div class="form-group">
+                                                 <label class="text-secondary" for="username">Username</label>
+                                                 <input type="text" name="username" class="form-control" required id="txt">
+                                          </div>
+                                          <div class="form-group">
+                                                 <label  class="text-secondary" for="password">Password</label>
+                                                 <input type="text" name="password" class="form-control" required id="txt">
+                                          </div>
+                                          <div>
+                                                 <button class="btn btn-primary col-12" id="txt">Login</button>
+                                          </div>
+                                   </form>
+                            </div>
+                            <div class="modal-footer">
+                                   <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                     </div>
+              </div>
+       </div>
+
+<div id="homepageup">
+<nav class="navbar navbar-expand-lg navbar-white bg-white fixed-top">
+
+	<div class="container text-uppercase p-2">
+
+       <img src="img/websitelogo.jpg" style="width: 70px" id="imgid">
+
+       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="
+                    #navbarresponsive" >
+       	<span class="navbar-toggler-icon"></span></button>
+
+
+       <div class="collapse navbar-collapse" id="navbarresponsive">
+       	<ul class="navbar-nav ml-auto">
+       		
+       		<li class="nav-item">
+       			<a class="nav-link" href="Home.html">Home</a>
+       		</li>
+       		<li class="nav-item">
+       			<a class="nav-link" href="Service.html">Services</a>
+       		</li>
+       		<li class="nav-item">
+       			<a class="nav-link" href="About.html">About</a>
+       		</li>
+       		<li class="nav-item">
+       			<a class="nav-link" href="Contact.html">Contact Us</a>
+       		</li>
+       	</ul>
+              <ul class="navbar-nav navbar-right mt-2">
+                     <li class="nav-item">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="txt">Login</button>
+                     </li>
+              </ul>
+       </div>
+	</div>
+</nav>
+
+<br>
+<div class="container mt-5">
+<form id="fromId" style="margin-top: 125px">
+
+       <h1>Contact Us</h1>
+       
+
+       <div class="form-group">
+       <label>Enter Name</label>
+       <input type="text" name="nm" class="form-control col-5" placeholder="Enter Your Name" required id="txt">
+       </div>
+
+       <div class="form-group">
+       <label>Enter Email</label>
+       <input type="email" name="nm" class="form-control col-5" placeholder="Enter Your Email Id" required id="txt">
+       </div>
+
+       <div class="form-group">
+       <label>Enter Mobile No</label>
+       <input type="number" name="nm" class="form-control col-5" placeholder="Enter Mobile Number" required id="txt">
+       </div>
+       <br>
+       
+       <button type="submit" class="btn btn-success form-control col-5" id="txt">Submit</button>
+       
+</form>
+</div>
+<br>
+<br><br>
+<br>
+</div>
+<div>
+    <a href="#homepageup" style="margin-left:1300px">
+        <i class="fa fa-angle-double-up" style="font-size:48px;color:red"></i>
+    </a>
+    </div>
+
+<footer class="py-5 bg-dark">
+       <div class="container">
+              <center><upercase><strong><h2 style="color:grey">Bikers</h2></strong></upercase></center>
+              <img src="img/websitelogo.jpg" style="width: 70px" id="imgid">
+              <ul style="margin-left: 475px;">
+                     <li><a href="Service.html">Services</a></li>
+                     <li><a href="About.html">About</a></li>
+                     <li><a href="Contact.html">Contact Us</a></li>
+           </ul>
+       </div>
+</footer>
+
+  <section class="ftr">
+    <br>
+              <p class=" mb-0 text-center text-white">2020 &copy; Bikers.com </p>
+    
+              <div class="socialicons">
+              <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook btn btn-primary" font-size:25px"></i>
+              </a>
+              <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram btn btn-primary" font-size:25px"></i></a>
+              <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter btn btn-primary" font-size:25px"></i></a>
+              </div>
+  </section>
+
+</body>
+</html>
